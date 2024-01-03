@@ -3,12 +3,8 @@
 
 #define STACK_SIZE 100
 
-typedef struct {
-    int stack[STACK_SIZE];
-    int top;
-} Stack;
-
-Stack stack;
+int stack[STACK_SIZE];
+int sp = -1;
 
 void push(int value, int line_number) {
     if (stack.top >= STACK_SIZE) {
