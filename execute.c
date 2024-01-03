@@ -14,6 +14,8 @@ int execute(char *line, stack_t **stack, unsigned int counter, FILE *file)
 				{"pop", f_pop},
 				{"swap", f_swap},
 				{"nop", f_nop},
+				{"queue", f_queue},
+				{"stack", f_stack},
 				{NULL, NULL}
 				};
 	unsigned int i = 0;
