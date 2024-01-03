@@ -1,4 +1,5 @@
 #include <stdio.h>
+#include <string.h>
 #include <stdlib.h>
 
 #define STACK_SIZE 100
@@ -7,7 +8,7 @@ int stack[STACK_SIZE];
 int sp = -1;
 
 void push(int value, int line_number) {
-	if (sp == STACK_SIZE - ) {
+	if (sp == STACK_SIZE - 1) {
 		fprintf(stderr, "L%d: Stack overflow\n", line_number);
 		exit(EXIT_FAILURE);
 	}
