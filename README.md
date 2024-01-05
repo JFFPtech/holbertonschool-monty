@@ -2,7 +2,7 @@
 
 Requirements
 
-General:
+**General:
 
     Allowed editors: vi, vim, emacs
     All your files will be compiled on Ubuntu 20.04 LTS using gcc, using the options -Wall -Werror -Wextra -pedantic -std=c89
@@ -19,7 +19,7 @@ General:
 
     More Info:
 
-    Data structures
+**Data structures:
 
     Please use the following data structures for this project. Don’t forget to include them in your header file.
 

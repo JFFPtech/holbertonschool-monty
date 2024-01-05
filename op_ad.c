@@ -3,7 +3,6 @@
  * f_add - takes the two top and adds them
  * @head: stack head
  * @counter: counts line numbers
- * Return: none
  */
 
 void f_add(stack_t **head, unsigned int counter)
